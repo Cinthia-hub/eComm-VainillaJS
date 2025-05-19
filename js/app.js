@@ -45,7 +45,7 @@ nxtBtn.addEventListener('click', () => {
     smProductDes.innerHTML = productData[currentProduct].des.slice(0, 80)
 
     smImgContainer.classList.add('slide')
-    productImgContainer.classList.add('slider')
+    productImgContainer.classList.add('slide')
     backdropImg.classList.add('fade')
     productDetail.classList.add('fade')
 
@@ -61,7 +61,7 @@ nxtBtn.addEventListener('click', () => {
 
     setTimeout(() => {
         smImgContainer.classList.remove('slide')
-        productImgContainer.classList.remove('slider')
+        productImgContainer.classList.remove('slide')
         backdropImg.classList.remove('fade')
         productDetail.classList.remove('fade')
     }, 2000)
